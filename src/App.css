@@ -29,7 +29,9 @@ button {
 }
 
 #root {
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .App {
@@ -38,6 +40,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-block: auto;
 }
 
 .main-container {
